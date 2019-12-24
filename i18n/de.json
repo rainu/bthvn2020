@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "language": {
+      "code": "Deutsch"
+    }
+  },
+  "favorite": {
+    "my-favorite": {
+      "title": "Ihre Favoriten ({favoriteCount})"
+    },
+    "hint": {
+      "no-favorite": "Bisher haben Sie keine Favoriten. Um ein Programmeintrag als Favorit zu markieren, klicken Sie bitte auf das \"Herz-Symbol\" neben dem Eintrag."
+    }
+  },
+  "program": {
+    "overview": {
+      "title": "Komplettes Programm ({programCount})"
+    }
+  }
+}
