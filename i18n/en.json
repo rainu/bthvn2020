@@ -2,7 +2,18 @@
   "meta": {
     "language": {
       "code": "English"
-    }
+    },
+    "about": {
+      "title": "About us",
+      "text1": "UEBERSETZEN: Die #bthvn2020 \"Programm Unterwegs\" Webseite wurde programmiert von:",
+      "text2": "UEBERSETZEN: Sämtliche Angaben zu dem Programm ohne Gewähr. Die Informationen wurden nach bestem Wissen und Gewissen zusammengestellt.",
+      "text3": "UEBERSETZEN: Wir möchten uns an dieser Stelle herzlich bei der \"Beethoven Jubiläums GmbH\" bedanken, die uns Ihre Informationen und Bildmaterial rund um das Programm zur Verfügung gestellt hat.",
+      "last-update": "Last update: {date}"
+    },
+    "date": {
+      "format": "MM-dd-yyyy"
+    },
+    "title": "#bthvn2020"
   },
   "favorite": {
     "my-favorite": {
