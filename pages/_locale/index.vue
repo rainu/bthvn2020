@@ -15,20 +15,23 @@
 
     <h2>{{$t('program.overview.title', {programCount})}}</h2>
 
-    <v-row align="center">
-      <v-col cols="12" sm="6" md="3" v-for="p of program" :key="p.id">
-        <ProgramCard :program="p" />
-      </v-col>
-    </v-row>
+    <v-text-field v-model="searchTerm" />
+    <program-list :search-term="searchTerm" />
   </v-container>
 </template>
 
 <script>
   import { mapState } from 'vuex';
   import ProgramCard from "../../components/ProgramCard";
+  import ProgramList from "../../components/ProgramList";
 
   export default {
-    components: {ProgramCard},
+    components: {ProgramList, ProgramCard},
+    data(){
+      return {
+        searchTerm: null,
+      }
+    },
     computed: {
       ...mapState({
         locale: state => state.i18n.locale,

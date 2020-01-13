@@ -26,6 +26,9 @@
   "program": {
     "overview": {
       "title": "Complete program ({programCount})"
+    },
+    "search": {
+      "no-results": "No results found"
     }
   }
 }
